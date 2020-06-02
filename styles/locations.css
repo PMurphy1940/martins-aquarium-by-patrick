@@ -1,13 +1,37 @@
-.locationList {
-    background-color: mediumaquamarine;
-}
+
 
 .location {
-    background-color: mediumseagreen;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color:#9aa788;
+    padding: 5% 0 5% 0;
+
+}
+.location div {
+    margin: 2%;
+    
 }
 
+.location__card {
+    transition: .2s; 
+    max-width: 40%;
+    padding: .5%;
+    background-color:cornsilk;
+    border-radius: 5%;
+    border: 1px dotted;
+    box-shadow: 0 15px 8px 0 rgba(0, 0, 0, 0.2), 3px 6px 20px 0 rgba(0, 0, 0, 0.4);
+}
 
 .location__picture {
-    max-width: 15rem;
-    max-height: 15rem;
+    border-radius: 5%;
+    max-width: 100%;
+    height: auto;
+}
+
+.location__details {
+    max-width: 100%;
+    font-size: 1.7vw;
+    border: 2% ;
 }
