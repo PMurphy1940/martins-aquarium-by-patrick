@@ -4,7 +4,7 @@
     max-width: 100%;
     align-self: flex-start;
 }
-.fish {
+.fishInsert {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -14,7 +14,7 @@
     /* background-image: url(https://images.unsplash.com/photo-1572284795851-e2c9da37db05?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80); */
 }
 
-.fish div {
+.fishInsert div {
     margin: 2%;
     
 }
