@@ -1,3 +1,13 @@
 .banner {
-    background-color: darkgoldenrod;
+    background-color: rgb(184, 135, 11);
+    background-image: url(../images/Logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner__title {
+    font-size: 5em;
+    color: rgb(221, 243, 234);
+    text-align: center;
+    padding-top: 1em;
 }

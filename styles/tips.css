@@ -1,8 +1,9 @@
 .tipList {
-    background-color: dodgerblue;
+    background-color:  rgba(22, 62, 173, 1);
     height: 100%;
+    /* position: fixed; */
 }
 
 .tip {
-    background-color: royalblue;
+    background-color: rgb(65, 108, 225);
 }
