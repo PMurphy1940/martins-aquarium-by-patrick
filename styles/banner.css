@@ -1,7 +1,7 @@
 .banner {
-    background-color: rgb(184, 135, 11);
+    background-color: #f39237;
     background-image: url(../images/Logo.png);
-    background-position: center;
+    background-position: left;
     background-repeat: no-repeat;
 }
 

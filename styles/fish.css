@@ -1,4 +1,9 @@
-
+.collection {
+    background-color: rgba(0, 255, 255, 0.15);
+    text-align: center;
+    max-width: 100%;
+    align-self: flex-start;
+}
 .fish {
     display: flex;
     flex-direction: row;
@@ -36,10 +41,23 @@
     display: none;
     position: absolute;
     max-width: 100%;
-    font-size: 1.7vw;
+    font-size: 1.6vw;
     border: 2% ;
 }
 .fish__cards:hover div {
     background-color: rgba(255, 248, 220, 0.911);
     display: block ;
+}
+
+.fish__details__list {
+    margin-left: -3vw;
+    margin-right: 2.1vw;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start; */
+}
+
+ul {
+    list-style: none;
 }
