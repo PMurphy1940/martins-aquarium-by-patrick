@@ -27,7 +27,23 @@
     
 }
 
-.fish__cards {
+.fish__cards__holy {
+    transition: .2s; 
+    max-width: 25%;
+    padding: .5%;
+    background-color:rgb(240, 218, 131);
+    border-radius: 5%;
+    box-shadow: 0 15px 8px 0 rgba(0, 0, 0, 0.2), 3px 6px 20px 0 rgba(0, 0, 0, 0.4);
+}
+.fish__cards__soldier {
+    transition: .2s; 
+    max-width: 25%;
+    padding: .5%;
+    background-color:rgb(128, 59, 38);
+    border-radius: 5%;
+    box-shadow: 0 15px 8px 0 rgba(0, 0, 0, 0.2), 3px 6px 20px 0 rgba(0, 0, 0, 0.4);
+}
+.fish__cards__regular {
     transition: .2s; 
     max-width: 25%;
     padding: .5%;
@@ -36,7 +52,13 @@
     box-shadow: 0 15px 8px 0 rgba(0, 0, 0, 0.2), 3px 6px 20px 0 rgba(0, 0, 0, 0.4);
 }
 
-.fish__cards:hover {
+.fish__cards__holy:hover {
+    transform: scale(1.1); 
+}
+.fish__cards__soldier:hover {
+    transform: scale(1.1); 
+}
+.fish__cards__regular:hover {
     transform: scale(1.1); 
 }
 .fish__picture {
@@ -52,7 +74,15 @@
     font-size: 1.6vw;
     border: 2% ;
 }
-.fish__cards:hover div {
+.fish__cards__holy:hover div {
+    background-color: rgba(240, 218, 131, 0.911);
+    display: block ;
+}
+.fish__cards__soldier:hover div {
+    background-color: rgba(128, 59, 38, 0.884);
+    display: block ;
+}
+.fish__cards__regular:hover div {
     background-color: rgba(255, 248, 220, 0.911);
     display: block ;
 }
