@@ -53,10 +53,10 @@
 }
 
 .fish__cards__holy:hover {
-    transform: scale(1.1); 
+    transform: scale(1.3); 
 }
 .fish__cards__soldier:hover {
-    transform: scale(1.1); 
+    transform: scale(1.15); 
 }
 .fish__cards__regular:hover {
     transform: scale(1.1); 
