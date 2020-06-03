@@ -1,8 +1,16 @@
 .collection {
     background-color: rgba(0, 255, 255, 0.15);
-    text-align: center;
-    max-width: 100%;
-    align-self: flex-start;
+    background-image: url(../images/Clown.gif);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: right;
+    font-family: 'Limelight', cursive;
+    font-size: 5vw;
+    text-align: left;
+    max-width: 95%;
+    padding: 3%;
+    margin: -.1% 0 0 0;
+    /* align-self: flex-start; */
 }
 .fishInsert {
     display: flex;

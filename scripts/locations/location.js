@@ -5,16 +5,16 @@
 const locationConverter = (locationObject) => {
 
     const locationHTMLRepresentation = `
-        <div class="location__cards">
+        <div class="location__card">
             <div class="">
                 <img class="location__picture" src="${locationObject.imgUrl}"
                     alt="${locationObject.name}" />
+                    <p class="location__card__name">${locationObject.name}</P>
             </div>
             <div class="location__details">
                 <ul class="location__details__list">
                     <li>Common fish: ${locationObject.commonFish}</li>
                     <li>Weather: ${locationObject.weather}</li>
-                    <li>Name: ${locationObject.name}</li>
                     <li>Dive equipment: ${locationObject.equipment}</li>
                     <li>Legality: ${locationObject.legality}</li>
                 </ul>

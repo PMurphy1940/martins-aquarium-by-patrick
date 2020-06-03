@@ -77,7 +77,7 @@ const fishCollection = [
         name: "Spike",
         location: "Sea of Japan",
         food: "Other fish",
-        imgUrl: "https://upload.wikimedia.org/wikipedia/commons/3/3d/Red_lionfish_near_Gilli_Banta_Island.JPG"
+        imgUrl: "images/Lionfish.png"
     },
 
     {

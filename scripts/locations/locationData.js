@@ -5,7 +5,7 @@ const locationCollection = [
         name: "Fiji",
         equipment: "Standard tank and mask",
         legality: "Permit required",
-        imgUrl: "https://d3w3pid64ak8v.cloudfront.net/photo/101734/image/large-919e01760cdd191281d84375f79093c0.jpg"
+        imgUrl: "images/fiji.png"
     },
     {
         commonFish: "Clownfish, parrotfish, tangs",
@@ -13,7 +13,7 @@ const locationCollection = [
         name: "The Carribean sea",
         equipment: "Standard tank and mask",
         legality: "Permit required",
-        imgUrl: "https://caribbeannewsservice.com/now/wp-content/uploads/2017/05/Caribbean-Sea.jpg"
+        imgUrl: "images/Carribean-sea.png"
     },
     {
         commonFish: "Angelfish, clownfish, wrasse",
@@ -21,7 +21,7 @@ const locationCollection = [
         name: "The Great Barrier Reef",
         equipment: "Snorkel",
         legality: "Strictly illegal",
-        imgUrl: "https://static.businessinsider.com/image/53185f356bb3f7486852981d-/image.jpg"
+        imgUrl: "images/Great-Barrier-Reef.jpg"
     },
     {
         commonFish: "Angelfish, lionfish, wrasse",
@@ -29,6 +29,6 @@ const locationCollection = [
         name: "Sea of Japan",
         equipment: "Deep dive",
         legality: "Permit required",
-        imgUrl: "https://www.bestourism.com/img/items/big/7847/The-Sea-of-Japan_Beautiful-coast_14358.jpg"
+        imgUrl: "images/Japan-sea.png"
     }
 ]
