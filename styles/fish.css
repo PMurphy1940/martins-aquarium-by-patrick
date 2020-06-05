@@ -4,12 +4,15 @@
     background-size: 30%;
     background-repeat: no-repeat;
     background-position: right;
-    font-family: 'Limelight', cursive;
-    font-size: 5vw;
-    text-align: left;
     max-width: 95%;
     padding: 3%;
     margin: -.1% 0 0 0;
+}
+
+.collection h2 {
+    font-family: 'Limelight', cursive;
+    font-size: 5vw;
+    text-align: left;
 }
 .fishInsert {
     display: flex;
@@ -107,4 +110,15 @@
 
 ul {
     list-style: none;
+}
+
+.typeChoice {
+    background-color:rgb(240, 218, 131);
+    font-family: 'Limelight', cursive;
+    padding: 2%;
+    text-align: center;
+    font-size: 2.2vw;
+    border-radius: 50%;
+    border: darkblue solid 1px;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 3px 6px 10px 0 rgba(0, 0, 0, 0.4);
 }

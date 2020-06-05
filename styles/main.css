@@ -30,3 +30,24 @@ main {
 .underTheBanner__right {
     flex: 1;
 }
+
+.hidden {
+    display: none;
+}
+
+button {
+    background-color:rgb(240, 218, 131);
+    font-family: 'Limelight', cursive;
+    padding: 2%;
+    text-align: center;
+    font-size: 2.2vw;
+    border-radius: 50%;
+    border: darkblue solid 1px;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 3px 6px 10px 0 rgba(0, 0, 0, 0.4);
+}
+.customization {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgba(0, 255, 255, 0.15); */
+    padding:3%;
+}
