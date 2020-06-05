@@ -14,13 +14,13 @@ fishVisibilityButton.addEventListener("click", clickEvent => {
    fishButtonHTML = document.querySelector(".toggleFish")
 
    if (fishButtonStatus == "fishList hidden") {
-       fishButtonHTML.innerHTML = `<div>Show Fish</div>`
+       fishButtonHTML.innerHTML = `Show Fish`
      }
    else if (fishButtonStatus == "fishList") {
-    fishButtonHTML.innerHTML = `<div>Hide Fish</div>`
+    fishButtonHTML.innerHTML = `Hide Fish`
     }
    else {
-        fishButtonHTML.innerHTML = `<div>What the hell</div>`
+        fishButtonHTML.innerHTML = `Error`
    }
    
 })

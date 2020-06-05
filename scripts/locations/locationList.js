@@ -12,13 +12,13 @@ locationVisibilityButton.addEventListener("click", clickEvent => {
     locationButtonHTML = document.querySelector(".toggleLocation")
  
     if (locationButtonStatus == "locationList hidden") {
-        locationButtonHTML.innerHTML = `<div>Show Locations</div>`
+        locationButtonHTML.innerHTML = `Show Locations`
       }
     else if (locationButtonStatus == "locationList") {
-     locationButtonHTML.innerHTML = `<div>Hide Locations</div>`
+     locationButtonHTML.innerHTML = `Hide Locations`
      }
     else {
-         locationButtonHTML.innerHTML = `<div>What the hell</div>`
+         locationButtonHTML.innerHTML = `Error`
     }
 })
 
