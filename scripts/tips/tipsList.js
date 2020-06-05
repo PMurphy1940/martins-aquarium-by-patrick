@@ -14,13 +14,13 @@ tipVisibilityButton.addEventListener("click", clickEvent => {
     tipButtonHTML = document.querySelector(".toggleTips")
  
     if (tipButtonStatus == "underTheBanner__right hidden") {
-        tipButtonHTML.innerHTML = `<div>Show Tips</div>`
+        tipButtonHTML.innerHTML = `Show Tips`
       }
     else if (tipButtonStatus == "underTheBanner__right") {
-     tipButtonHTML.innerHTML = `<div>Hide Tips</div>`
+     tipButtonHTML.innerHTML = `Hide Tips`
      }
     else {
-         tipButtonHTML.innerHTML = `<div>What the hell</div>`
+         tipButtonHTML.innerHTML = `Error`
     }
 })
 

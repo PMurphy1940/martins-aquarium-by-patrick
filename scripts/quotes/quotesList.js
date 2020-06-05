@@ -12,13 +12,13 @@ quoteVisibilityButton.addEventListener("click", clickEvent => {
     quoteButtonHTML = document.querySelector(".toggleQuotes")
  
     if (quoteButtonStatus == "quote__container hidden") {
-        quoteButtonHTML.innerHTML = `<div>Show Quotes</div>`
+        quoteButtonHTML.innerHTML = `Show Quotes`
       }
     else if (quoteButtonStatus == "quote__container") {
-     quoteButtonHTML.innerHTML = `<div>Hide Quotes</div>`
+     quoteButtonHTML.innerHTML = `Hide Quotes`
      }
     else {
-         quoteButtonHTML.innerHTML = `<div>What the hell</div>`
+         quoteButtonHTML.innerHTML = `Error`
     }
 })
 
