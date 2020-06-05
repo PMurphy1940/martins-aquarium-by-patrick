@@ -13,15 +13,7 @@ const getFishData = () => {
         )
 }
 
-
-
-
-
-
-
-
-
-
+// displays fish type - Holy, Soldier, Regular
 const mostHolyFish = () => {
     const holyFish = []
     for (const fishOfThree of fishCollection) {
