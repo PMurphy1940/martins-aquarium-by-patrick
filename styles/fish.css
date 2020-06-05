@@ -10,7 +10,6 @@
     max-width: 95%;
     padding: 3%;
     margin: -.1% 0 0 0;
-    /* align-self: flex-start; */
 }
 .fishInsert {
     display: flex;
@@ -19,12 +18,26 @@
     justify-content: space-evenly;
     background-color: rgba(0, 255, 255, 0.15);
     padding: 5% 0 5% 0;
-    /* background-image: url(https://images.unsplash.com/photo-1572284795851-e2c9da37db05?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80); */
 }
 
 .fishInsert div {
     margin: 2%;
     
+}
+
+.holy__fish__crown {
+    max-width: 20%;
+    height: auto;
+}
+
+.soldier__fish__sword {
+    max-width: 40%;
+    height: auto;
+}
+
+.worker__fish__hammer {
+    max-width: 20%;
+    height: auto;
 }
 
 .fish__cards__holy {
@@ -90,10 +103,6 @@
 .fish__details__list {
     margin-left: -3vw;
     margin-right: 2.1vw;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start; */
 }
 
 ul {

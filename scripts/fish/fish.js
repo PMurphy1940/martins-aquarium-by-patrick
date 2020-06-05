@@ -7,6 +7,7 @@ const holyFishConverter = (fishObject) => {
     const fishHTMLRepresentation = `
         <div class="fish__cards__holy">
             <div class="">
+                <img class="holy__fish__crown" src="images/crown.gif">
                 <img class="fish__picture" src="${fishObject.imgUrl}"
                     alt="${fishObject.name} the ${fishObject.species}" />
             </div>
@@ -29,6 +30,7 @@ const soldierFishConverter = (fishObject) => {
     const fishHTMLRepresentation = `
         <div class="fish__cards__soldier">
             <div class="">
+                <img class="soldier__fish__sword" src="images/sword.png">
                 <img class="fish__picture" src="${fishObject.imgUrl}"
                     alt="${fishObject.name} the ${fishObject.species}" />
             </div>
@@ -51,6 +53,7 @@ const regularFishConverter = (fishObject) => {
     const fishHTMLRepresentation = `
         <div class="fish__cards__regular">
             <div class="">
+                <img class="worker__fish__hammer" src="images/spade.png">
                 <img class="fish__picture" src="${fishObject.imgUrl}"
                     alt="${fishObject.name} the ${fishObject.species}" />
             </div>

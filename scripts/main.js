@@ -15,13 +15,9 @@ getQuoteData().then(
         quoteList()
     }
 )
+
 getTipData().then(
     () => {
         tipList()
     }
 )
-
-// fishList()
-// locationList()
-// quoteList()
-// tipList()
