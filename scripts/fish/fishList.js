@@ -3,19 +3,64 @@ Responsible for generating a list of fish HTML
 representations, and putting in the browser
 */
 
-// const fishList = () => {
-//     // Iterate the collection of fish objects
-//     for (const currentFishObject of fishCollection) {
+// show/hide entire Fish Collection element
 
-//         // Convert the current fish to its HTML representation
-//         const fishHTML = fishConverter(currentFishObject)
+const fishVisibilityButton = document.querySelector(".toggleFish")
 
-//         // Find the <article> element in index.html
-        
-//         // Put the fish HTML representation inside the <article> element
-//         fishArticleElement.innerHTML += fishHTML
-//     }
-// }
+fishVisibilityButton.addEventListener("click", clickEvent => {
+    document.querySelector(".fishList").classList.toggle("hidden")
+
+   fishButtonStatus = document.querySelector(".fishList").classList
+   fishButtonHTML = document.querySelector(".toggleFish")
+
+   if (fishButtonStatus == "fishList hidden") {
+       fishButtonHTML.innerHTML = `<div>Show Fish</div>`
+     }
+   else if (fishButtonStatus == "fishList") {
+    fishButtonHTML.innerHTML = `<div>Hide Fish</div>`
+    }
+   else {
+        fishButtonHTML.innerHTML = `<div>What the hell</div>`
+   }
+   
+})
+
+
+//  show/hide fish types Select Element
+
+
+const fishTypeDropdown = document.querySelector(".typeChoice")
+
+const clearFishList = () => contentTarget.innerHTML = ""
+const contentTarget = document.querySelector(".fishInsert")
+
+fishTypeDropdown.addEventListener("change", clickEvent => {
+    // Get the value of the option chosen by the user
+    const userChoice = clickEvent.target.value
+
+    // If the user chose Holy, clear the list and only show holy fish
+    if (userChoice === "holy") {
+        clearFishList()
+        showHolyFish()
+    }
+    else if (userChoice === "soldier") {
+        clearFishList()
+        showSoldierFish()
+    }
+    else if (userChoice === "plebs") {
+        clearFishList()
+        showRegularFish()
+    }
+    else if (userChoice === "all") {
+        clearFishList()
+        fishList()
+    }
+    else if (userChoice === "noFish") {
+        clearFishList()
+    }
+})
+
+// Display fish type "Holy", "Soldier", "Regular"
 
 const showHolyFish = () => {
     const fishObjectsArray = mostHolyFish()
